@@ -1,109 +1,459 @@
 {
     "Inventory and items": {
-        "health.json": {
+        "configs/health.json": {
             "healthMultipliers.death": {
                 "displayName": "healthMultipliers death 0.3",
                 "description": "cat"
             }
+        },
+		"database/bots/types/arenafighter.json": {
+            "appearance.body.5d5e7e7586f77427997cfb7f": {
+                "displayName": "UNKNOWN",
+                "description": "UNKNOWN"
+            }
+        }
+    },
+    "Airdrop": {
+        "configs/airdrop.json": {
+            "airdropChancePercent.bigmap": {
+                "displayName": "Customs Airdrop Chance - 25",
+                "description": "Chance of an airdrop occurring in the Customs map."
+            },
+            "airdropChancePercent.woods": {
+                "displayName": "Woods Airdrop Chance - 25",
+                "description": "Chance of an airdrop occurring in the Woods map."
+            },
+            "airdropChancePercent.lighthouse": {
+                "displayName": "Lighthouse Airdrop Chance - 20",
+                "description": "Chance of an airdrop occurring in the Lighthouse map."
+            },
+            "airdropChancePercent.shoreline": {
+                "displayName": "Shoreline Airdrop Chance - 20",
+                "description": "Chance of an airdrop occurring in the Shoreline map."
+            },
+            "airdropChancePercent.interchange": {
+                "displayName": "Interchange Airdrop Chance - 25",
+                "description": "Chance of an airdrop occurring in the Interchange map."
+            },
+            "airdropChancePercent.tarkovStreets": {
+                "displayName": "Tarkov Streets Airdrop Chance - 20",
+                "description": "Chance of an airdrop occurring in the Tarkov Streets map."
+            },
+            "airdropChancePercent.sandbox": {
+                "displayName": "Ground Zero Airdrop Chance - 25",
+                "description": "Chance of an airdrop occurring in the Ground Zero map."
+            },
+            "airdropMinStartTimeSeconds": {
+                "displayName": "Airdrop Minimum Time - 60",
+                "description": "Minimum time in seconds before an airdrop can start."
+            },
+            "airdropMaxStartTimeSeconds": {
+                "displayName": "Airdrop Maximum Time - 300",
+                "description": "Maximum time in seconds before an airdrop can start."
+            },
+            "planeVolume": {
+                "displayName": "Airdrop Plane Volume",
+                "description": "Volume of the airdrop plane's sound."
+            },
+            "loot.mixed.weaponPresetCount.min": {
+                "displayName": "Weapon - 3",
+                "description": "Minimum number of weapon presets in mixed loot."
+            },
+            "loot.mixed.weaponPresetCount.max": {
+                "displayName": "Weapon - 5",
+                "description": "Maximum number of weapon presets in mixed loot."
+            },
+            "loot.mixed.armorPresetCount.min": {
+                "displayName": "Armor - 1",
+                "description": "Minimum number of armor presets in mixed loot."
+            },
+            "loot.mixed.armorPresetCount.max": {
+                "displayName": "Armor - 5",
+                "description": "Maximum number of armor presets in mixed loot."
+            },
+            "loot.mixed.itemCount.min": {
+                "displayName": "Barter Items - 15",
+                "description": "Minimum number of barter items in mixed loot."
+            },
+            "loot.mixed.itemCount.max": {
+                "displayName": "Barter Items - 35",
+                "description": "Maximum number of barter items in mixed loot."
+            },
+            "loot.mixed.weaponCrateCount.min": {
+                "displayName": "Weapon - 1",
+                "description": "Minimum number of weapon crates in mixed loot."
+            },
+            "loot.mixed.weaponCrateCount.max": {
+                "displayName": "Weapon - 2",
+                "description": "Maximum number of weapon crates in mixed loot."
+            },
+            "loot.weaponArmor.weaponPresetCount.min": {
+                "displayName": "Weapon - 6",
+                "description": "Minimum number of weapon presets in weapon and armor loot."
+            },
+            "loot.weaponArmor.weaponPresetCount.max": {
+                "displayName": "Weapon - 8",
+                "description": "Maximum number of weapon presets in weapon and armor loot."
+            },
+            "loot.weaponArmor.armorPresetCount.min": {
+                "displayName": "Armor - 3",
+                "description": "Minimum number of armor presets in weapon and armor loot."
+            },
+            "loot.weaponArmor.armorPresetCount.max": {
+                "displayName": "Armor - 6",
+                "description": "Maximum number of armor presets in weapon and armor loot."
+            },
+            "loot.weaponArmor.itemCount.min": {
+                "displayName": "Barter Items - 11",
+                "description": "Minimum number of barter items in weapon and armor loot."
+            },
+            "loot.weaponArmor.itemCount.max": {
+                "displayName": "Barter Items - 22",
+                "description": "Maximum number of barter items in weapon and armor loot."
+            },
+            "loot.weaponArmor.weaponCrateCount.min": {
+                "displayName": "Weapon Crate - 0",
+                "description": "Minimum number of weapon crates in weapon and armor loot."
+            },
+            "loot.weaponArmor.weaponCrateCount.max": {
+                "displayName": "Weapon Crate - 2",
+                "description": "Maximum number of weapon crates in weapon and armor loot."
+            },
+            "loot.foodMedical.weaponPresetCount.min": {
+                "displayName": "Weapon - 0",
+                "description": "Minimum number of weapon presets in food and medical loot."
+            },
+            "loot.foodMedical.weaponPresetCount.max": {
+                "displayName": "Weapon - 0",
+                "description": "Maximum number of weapon presets in food and medical loot."
+            },
+            "loot.foodMedical.armorPresetCount.min": {
+                "displayName": "Armor - 0",
+                "description": "Minimum number of armor presets in food and medical loot."
+            },
+            "loot.foodMedical.armorPresetCount.max": {
+                "displayName": "Armor - 0",
+                "description": "Maximum number of armor presets in food and medical loot."
+            },
+            "loot.foodMedical.itemCount.min": {
+                "displayName": "Barter Items - 17",
+                "description": "Minimum number of barter items in food and medical loot."
+            },
+            "loot.foodMedical.itemCount.max": {
+                "displayName": "Barter Items - 28",
+                "description": "Maximum number of barter items in food and medical loot."
+            },
+            "loot.foodMedical.weaponCrateCount.min": {
+                "displayName": "Weapon Crate - 0",
+                "description": "Minimum number of weapon crates in food and medical loot."
+            },
+            "loot.foodMedical.weaponCrateCount.max": {
+                "displayName": "Weapon Crate - 0",
+                "description": "Maximum number of weapon crates in food and medical loot."
+            },
+            "loot.barter.weaponPresetCount.min": {
+                "displayName": "Weapon - 0",
+                "description": "Minimum number of weapon presets in barter loot."
+            },
+            "loot.barter.weaponPresetCount.max": {
+                "displayName": "Weapon - 0",
+                "description": "Maximum number of weapon presets in barter loot."
+            },
+            "loot.barter.armorPresetCount.min": {
+                "displayName": "Armor - 0",
+                "description": "Minimum number of armor presets in barter loot."
+            },
+            "loot.barter.armorPresetCount.max": {
+                "displayName": "Armor - 0",
+                "description": "Maximum number of armor presets in barter loot."
+            },
+            "loot.barter.itemCount.min": {
+                "displayName": "Barter Items - 20",
+                "description": "Minimum number of barter items in barter loot."
+            },
+            "loot.barter.itemCount.max": {
+                "displayName": "Barter Items - 35",
+                "description": "Maximum number of barter items in barter loot."
+            },
+            "loot.barter.weaponCrateCount.min": {
+                "displayName": "Weapon Crate - 0",
+                "description": "Minimum number of weapon crates in barter loot."
+            },
+            "loot.barter.weaponCrateCount.max": {
+                "displayName": "Weapon Crate - 0",
+                "description": "Maximum number of weapon crates in barter loot."
+            }
         }
     },
     "Hideout": {
-        "airdrop.json": {
-            "airdropChancePercent.bigmap": {
-                "displayName": "Customs Airdrop Chance - 25",
-                "description": "Customs Airdrop Chance"
+        "configs/hideout.json": {
+            "expCraftAmount": {
+                "displayName": "Hideout XP Craft Amount - 10",
+                "description": "Experience points awarded for crafting in the hideout."
             }
         }
     },
     "Traders": {
-        "btr.json": {
+        "configs/btr.json": {
             "moveSpeed": {
                 "displayName": "BTR Move Speed - 9",
-                "description": ""
-            }
-        }
-    },
-    "Traders services": {
-        "hideout.json": {
-            "expCraftAmount": {
-                "displayName": "Hideout XP Craft Amount - 10",
-                "description": ""
+                "description": "Movement speed of the BTR vehicle."
             }
         }
     },
     "Loot": {
-        "inraid.json": {
-            "MIAOnRaidEnd": {
-                "displayName": "MIAOnRaidEnd name - true",
-                "description": "MIAOnRaidEnd desc"
+        "configs/location.json": {
+            "looseLootMultiplier.bigmap": {
+                "displayName": "Customs Loose Loot - 2.5",
+                "description": "Multiplier for loose loot in the Customs map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.develop": {
+                "displayName": "Develop Loose Loot - 1",
+                "description": "Multiplier for loose loot in the Develop map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.factory4_day": {
+                "displayName": "Factory Day Loose Loot - 3.5",
+                "description": "Multiplier for loose loot in the Factory Day map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.factory4_night": {
+                "displayName": "Factory Night Loose Loot - 3.5",
+                "description": "Multiplier for loose loot in the Factory Night map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.interchange": {
+                "displayName": "Interchange Loose Loot - 2.8",
+                "description": "Multiplier for loose loot in the Interchange map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.laboratory": {
+                "displayName": "Laboratory Loose Loot - 2.8",
+                "description": "Multiplier for loose loot in the Laboratory map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.rezervbase": {
+                "displayName": "Reserve Loose Loot - 2.9",
+                "description": "Multiplier for loose loot in the Reserve map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.shoreline": {
+                "displayName": "Shoreline Loose Loot - 3.7",
+                "description": "Multiplier for loose loot in the Shoreline map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.woods": {
+                "displayName": "Woods Loose Loot - 1.9",
+                "description": "Multiplier for loose loot in the Woods map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.lighthouse": {
+                "displayName": "Lighthouse Loose Loot - 2.8",
+                "description": "Multiplier for loose loot in the Lighthouse map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.privatearea": {
+                "displayName": "Private Area Loose Loot - 1",
+                "description": "Multiplier for loose loot in the Private Area map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.suburbs": {
+                "displayName": "Suburbs Loose Loot - 1",
+                "description": "Multiplier for loose loot in the Suburbs map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.tarkovstreets": {
+                "displayName": "Streets Loose Loot - 3",
+                "description": "Multiplier for loose loot in the Streets map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.terminal": {
+                "displayName": "Terminal Loose Loot - 1",
+                "description": "Multiplier for loose loot in the Terminal map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.sandbox": {
+                "displayName": "Ground Zero Loose Loot - 2.8",
+                "description": "Multiplier for loose loot in the Ground Zero map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.sandbox_high": {
+                "displayName": "Ground Zero Level 20+ Loose Loot - 2.8",
+                "description": "Multiplier for loose loot in the Ground Zero Level 20+ map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "looseLootMultiplier.town": {
+                "displayName": "Town Loose Loot - 0",
+                "description": "Multiplier for loose loot in the Town map.",
+                "group": "Loose Loot Multipliers"
+            },
+            "staticLootMultiplier.bigmap": {
+                "displayName": "Customs Static Loot - 1",
+                "description": "Multiplier for static loot in the Customs map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.develop": {
+                "displayName": "Develop Static Loot - 1",
+                "description": "Multiplier for static loot in the Develop map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.factory4_day": {
+                "displayName": "Factory Day Static Loot - 1",
+                "description": "Multiplier for static loot in the Factory Day map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.factory4_night": {
+                "displayName": "Factory Night Static Loot - 1",
+                "description": "Multiplier for static loot in the Factory Night map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.interchange": {
+                "displayName": "Interchange Static Loot - 1",
+                "description": "Multiplier for static loot in the Interchange map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.laboratory": {
+                "displayName": "Laboratory Static Loot - 1",
+                "description": "Multiplier for static loot in the Laboratory map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.rezervbase": {
+                "displayName": "Reserve Static Loot - 1",
+                "description": "Multiplier for static loot in the Reserve map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.shoreline": {
+                "displayName": "Shoreline Static Loot - 1",
+                "description": "Multiplier for static loot in the Shoreline map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.woods": {
+                "displayName": "Woods Static Loot - 1",
+                "description": "Multiplier for static loot in the Woods map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.lighthouse": {
+                "displayName": "Lighthouse Static Loot - 1",
+                "description": "Multiplier for static loot in the Lighthouse map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.privatearea": {
+                "displayName": "Private Area Static Loot - 1",
+                "description": "Multiplier for static loot in the Private Area map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.suburbs": {
+                "displayName": "Suburbs Static Loot - 1",
+                "description": "Multiplier for static loot in the Suburbs map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.tarkovstreets": {
+                "displayName": "Tarkov Streets Static Loot - 1",
+                "description": "Multiplier for static loot in the Tarkov Streets map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.terminal": {
+                "displayName": "Terminal Static Loot - 1",
+                "description": "Multiplier for static loot in the Terminal map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.sandbox": {
+                "displayName": "Sandbox Static Loot - 1",
+                "description": "Multiplier for static loot in the Sandbox map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.sandbox_high": {
+                "displayName": "Sandbox High Static Loot - 1",
+                "description": "Multiplier for static loot in the Sandbox High map.",
+                "group": "Container Loot Multipliers"
+            },
+            "staticLootMultiplier.town": {
+                "displayName": "Town Static Loot - 1",
+                "description": "Multiplier for static loot in the Town map.",
+                "group": "Container Loot Multipliers"
             }
         }
     },
     "Player and Skills": {
-        "insurance.json": {
+        "configs/insurance.json": {
             "returnChancePercent.54cb50c76803fa8b248b4571": {
                 "displayName": "Prapor Insurance Return Chance - 75",
-                "description": ""
+                "description": "Chance of returning insured items from Prapor."
             }
         }
     },
     "Raid Settings": {
-        "inventory.json": {
+        "configs/inventory.json": {
             "newItemsMarkedFound": {
                 "displayName": "Inv - New Items Marked Found - false",
-                "description": ""
+                "description": "Whether new items are marked as found in raid."
             }
         }
     },
     "Flea market": {
-        "location.json": {
-            "looseLootMultiplier.bigmap": {
-                "displayName": "Customs Loose Loot Multiplier - 2.5",
-                "description": ""
+        "configs/ragfair.json": {
+            "sell.fees": {
+                "displayName": "Flea Market Fees",
+                "description": "Fees associated with selling items on the flea market."
+            },
+            "sell.chance.base": {
+                "displayName": "Flea Market Base Sell Chance - 50",
+                "description": "Base chance of successfully selling an item on the flea market."
+            },
+            "sell.chance.sellMultiplier": {
+                "displayName": "Flea Market Sell Multiplier - 1.24",
+                "description": "Multiplier applied to the base sell chance on the flea market."
             }
         }
     },
     "Repeatable Quests": {
-        "trader.json": {
+        "configs/trader.json": {
             "tradersResetFromServerStart": {
-                "displayName": "Traders Reset On Server Start",
-                "description": ""
+                "displayName": "Trader Timer Reset",
+                "description": "Whether trader cooldowns reset every server start."
             }
         }
     },
-    "Case Space Manager": {
-        "pmcchatresponse.json": {
+       "Case Space Manager": {
+        "configs/pmcchatresponse.json": {
             "victim.responseChancePercent": {
                 "displayName": "PMC Chat Response Chance - Victim - 7",
-                "description": ""
+                "description": "Chance of a PMC chat response when the player is a victim."
             }
         }
     },
     "Player SCAV": {
-        "repair.json": {
+        "configs/repair.json": {
             "priceMultiplier": {
                 "displayName": "Repair Price Multiplier - 1",
-                "description": ""
+                "description": "Multiplier applied to the repair cost for SCAV equipment."
             }
         }
     },
     "SCAV and Bosses": {
-        "lostondeath.json": {
+        "configs/lostondeath.json": {
             "equipment.ArmBand": {
-                "displayName": "Armband Lost On Death -false",
-                "description": "Armband Lost On Death2."
+                "displayName": "Armband Lost On Death - false",
+                "description": "Whether the armband is lost on death."
             },
             "equipment.Compass": {
                 "displayName": "Compass Lost On Death - false",
-                "description": "Compass Lost On Death2."
+                "description": "Whether the compass is lost on death."
             }
         }
     },
     "AI PMC": {
-        "core.json": {
+        "configs/core.json": {
             "features.chatbotFeatures.commandoEnabled": {
                 "displayName": "Commando Enabled",
                 "description": "Enable or disable commando mode."
+            }
+        },
+        "database/globals.json": {
+            "config.SkillAtrophy": {
+                "displayName": "SkillAtrophy",
+                "description": "SkillAtrophy"
             }
         }
     }

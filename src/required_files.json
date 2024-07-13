@@ -1,0 +1,17 @@
+[
+    "configs/health.json",
+    "configs/airdrop.json",
+    "configs/hideout.json",
+    "configs/btr.json",
+    "configs/location.json",
+    "configs/insurance.json",
+    "configs/inventory.json",
+    "configs/ragfair.json",
+    "configs/trader.json",
+    "configs/pmcchatresponse.json",
+    "configs/repair.json",
+    "configs/lostondeath.json",
+    "configs/core.json",
+	"database/globals.json",
+	"database/bots/types/arenafighter.json"
+]
