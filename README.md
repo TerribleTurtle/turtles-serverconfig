@@ -1,10 +1,15 @@
-# turtles-serverconfig
+# Turtles Server Config
 Edit SPT Server Values
-
 
 ---
 
 ## Installation and Customization
+
+### Warning
+
+**Do not install and run software from sources or people you do not trust.**
+
+All the files are provided here to allow you to compile this yourself. In fact, the project can be run directly from Python without needing an executable.
 
 ### Installation
 
@@ -16,7 +21,7 @@ Edit SPT Server Values
    - Copy the extracted files to your game's mod folder (typically located within your game's directory).
 
 3. **Launch the Application**:
-   - Run the executable (`main.py`).
+   - Run the executable (`TSC.exe`).
    - When prompted, select the parent folder of `SPT_Data`.
 
 ### Usage
@@ -47,9 +52,16 @@ Edit SPT Server Values
      - Add the file to `required_files.json` with the appropriate format.
      - Update `metadata.json` to include the new options, following the existing format.
 
----
+### Running Without an Executable
 
-You can use the application with just the pythin files, or you comile your own exe with the program and command below.
+You can use the application with just the Python files, or you can compile your own executable with the following command:
 
+```sh
 cd "YOUR_FULL_PATH\user\mods\turtles-serverconfig"
 pyinstaller --onefile --windowed --add-data "src;src" --add-data "YOUR_FULL_PATH/SPT_Data;SPT_Data" main.py
+```
+
+### Credits
+
+- **Coding**: Assisted by ChatGPT 4.0.
+- **Metadata Transcription**: Velnathas helped with transcribing configs to the metadata format.
