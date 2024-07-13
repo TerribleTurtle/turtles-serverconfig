@@ -1,0 +1,110 @@
+{
+    "Inventory and items": {
+        "health.json": {
+            "healthMultipliers.death": {
+                "displayName": "healthMultipliers death 0.3",
+                "description": "cat"
+            }
+        }
+    },
+    "Hideout": {
+        "airdrop.json": {
+            "airdropChancePercent.bigmap": {
+                "displayName": "Customs Airdrop Chance - 25",
+                "description": "Customs Airdrop Chance"
+            }
+        }
+    },
+    "Traders": {
+        "btr.json": {
+            "moveSpeed": {
+                "displayName": "BTR Move Speed - 9",
+                "description": ""
+            }
+        }
+    },
+    "Traders services": {
+        "hideout.json": {
+            "expCraftAmount": {
+                "displayName": "Hideout XP Craft Amount - 10",
+                "description": ""
+            }
+        }
+    },
+    "Loot": {
+        "inraid.json": {
+            "MIAOnRaidEnd": {
+                "displayName": "MIAOnRaidEnd name - true",
+                "description": "MIAOnRaidEnd desc"
+            }
+        }
+    },
+    "Player and Skills": {
+        "insurance.json": {
+            "returnChancePercent.54cb50c76803fa8b248b4571": {
+                "displayName": "Prapor Insurance Return Chance - 75",
+                "description": ""
+            }
+        }
+    },
+    "Raid Settings": {
+        "inventory.json": {
+            "newItemsMarkedFound": {
+                "displayName": "Inv - New Items Marked Found - false",
+                "description": ""
+            }
+        }
+    },
+    "Flea market": {
+        "location.json": {
+            "looseLootMultiplier.bigmap": {
+                "displayName": "Customs Loose Loot Multiplier - 2.5",
+                "description": ""
+            }
+        }
+    },
+    "Repeatable Quests": {
+        "trader.json": {
+            "tradersResetFromServerStart": {
+                "displayName": "Traders Reset On Server Start",
+                "description": ""
+            }
+        }
+    },
+    "Case Space Manager": {
+        "pmcchatresponse.json": {
+            "victim.responseChancePercent": {
+                "displayName": "PMC Chat Response Chance - Victim - 7",
+                "description": ""
+            }
+        }
+    },
+    "Player SCAV": {
+        "repair.json": {
+            "priceMultiplier": {
+                "displayName": "Repair Price Multiplier - 1",
+                "description": ""
+            }
+        }
+    },
+    "SCAV and Bosses": {
+        "lostondeath.json": {
+            "equipment.ArmBand": {
+                "displayName": "Armband Lost On Death -false",
+                "description": "Armband Lost On Death2."
+            },
+            "equipment.Compass": {
+                "displayName": "Compass Lost On Death - false",
+                "description": "Compass Lost On Death2."
+            }
+        }
+    },
+    "AI PMC": {
+        "core.json": {
+            "features.chatbotFeatures.commandoEnabled": {
+                "displayName": "Commando Enabled",
+                "description": "Enable or disable commando mode."
+            }
+        }
+    }
+}
